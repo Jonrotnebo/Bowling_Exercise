@@ -10,7 +10,7 @@ public class GameTest {
         Game game = new Game();
         game.roll(5);
         game.roll(4);
-        assertEquals(0, game.score());
+        assertEquals(9, game.score());
     }
 
 
