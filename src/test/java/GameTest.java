@@ -23,4 +23,12 @@ public class GameTest {
         }
     }
 
+    // just a basic test
+    @Test
+    public void testStrikeOne() {
+        Game game = new Game();
+        game.roll(10);
+        assertEquals(10, game.score());
+    }
+
 }
