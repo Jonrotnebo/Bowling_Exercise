@@ -6,7 +6,7 @@ public class Game {
     }
 
     public int score() {
-        return 9;
+        return 0;
     }
 
     //tes
